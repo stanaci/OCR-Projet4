@@ -1859,10 +1859,8 @@ abbr[title] {
 blockquote {
     padding: 10px 20px;
     margin: 0 0 20px;
-    font-size: 20px;
-    color: #101010;
-    font-style: italic;
-    border-left: 0px solid #eee
+    font-size: 17.5px;
+    border-left: 5px solid #eee
 }
 
 blockquote ol:last-child,
@@ -2013,8 +2011,8 @@ pre code {
 }
 
 .row {
-    /* margin-right: -15px;
-    margin-left: -15px */
+    margin-right: -15px;
+    margin-left: -15px
 }
 
 .col-lg-1,
@@ -2289,12 +2287,7 @@ pre code {
 .col-xs-offset-0 {
     margin-left: 0
 }
-@media (max-width:767px){
-    .col-sm-3 {
-        width: 25%;
-        float: left;
-    }
-}
+
 @media (min-width:768px) {
     .col-sm-1,
     .col-sm-10,
